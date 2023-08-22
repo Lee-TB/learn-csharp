@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program-structure", "progra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "namespaces", "namespaces\namespaces.csproj", "{1A7704A1-6A00-4399-9CC9-10892AB87EFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes", "classes\classes.csproj", "{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1A7704A1-6A00-4399-9CC9-10892AB87EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A7704A1-6A00-4399-9CC9-10892AB87EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A7704A1-6A00-4399-9CC9-10892AB87EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
