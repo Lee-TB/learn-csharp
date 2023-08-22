@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "namespaces", "namespaces\na
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes", "classes\classes.csproj", "{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "records", "Records\records.csproj", "{A9773FC2-1636-46A1-BB27-BA9322C03506}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9773FC2-1636-46A1-BB27-BA9322C03506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9773FC2-1636-46A1-BB27-BA9322C03506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9773FC2-1636-46A1-BB27-BA9322C03506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9773FC2-1636-46A1-BB27-BA9322C03506}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
