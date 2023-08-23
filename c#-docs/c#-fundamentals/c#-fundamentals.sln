@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program-structure", "program-structure\program-structure.csproj", "{994819F7-F155-44A6-A6D6-E4E2FDF237D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "program-structure", "program-structure\program-structure.csproj", "{994819F7-F155-44A6-A6D6-E4E2FDF237D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "namespaces", "namespaces\namespaces.csproj", "{1A7704A1-6A00-4399-9CC9-10892AB87EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "namespaces", "namespaces\namespaces.csproj", "{1A7704A1-6A00-4399-9CC9-10892AB87EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes", "classes\classes.csproj", "{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classes", "classes\classes.csproj", "{63C6EAFE-2487-45B8-A08A-7ECEE9F5E189}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "records", "Records\records.csproj", "{A9773FC2-1636-46A1-BB27-BA9322C03506}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "records", "Records\records.csproj", "{A9773FC2-1636-46A1-BB27-BA9322C03506}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaces", "interfaces\interfaces.csproj", "{6D3A5412-8C87-4051-891D-11A29AE2A65F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "interfaces", "interfaces\interfaces.csproj", "{6D3A5412-8C87-4051-891D-11A29AE2A65F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generics", "generics\generics.csproj", "{0A1BDADD-B21B-4D50-ADEE-108732AC225E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6D3A5412-8C87-4051-891D-11A29AE2A65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D3A5412-8C87-4051-891D-11A29AE2A65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D3A5412-8C87-4051-891D-11A29AE2A65F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1BDADD-B21B-4D50-ADEE-108732AC225E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1BDADD-B21B-4D50-ADEE-108732AC225E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1BDADD-B21B-4D50-ADEE-108732AC225E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1BDADD-B21B-4D50-ADEE-108732AC225E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
