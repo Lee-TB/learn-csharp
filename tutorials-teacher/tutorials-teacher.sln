@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartialClass", "PartialClas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Static", "Static\Static.csproj", "{FD9ACF23-C7AE-477F-8ED3-88D255C13A8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{FD2D828D-A8E1-4543-BFC3-0C6358A1FDC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{FD2D828D-A8E1-4543-BFC3-0C6358A1FDC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Overloading", "Method Overloading\Method Overloading.csproj", "{5B7541DC-DF0F-4B2B-8F8A-782F24F014BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{FD2D828D-A8E1-4543-BFC3-0C6358A1FDC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD2D828D-A8E1-4543-BFC3-0C6358A1FDC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD2D828D-A8E1-4543-BFC3-0C6358A1FDC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7541DC-DF0F-4B2B-8F8A-782F24F014BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7541DC-DF0F-4B2B-8F8A-782F24F014BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7541DC-DF0F-4B2B-8F8A-782F24F014BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7541DC-DF0F-4B2B-8F8A-782F24F014BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
