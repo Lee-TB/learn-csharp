@@ -20,25 +20,25 @@ public class Book
 
 public class Invoice
 {
-    public Book book;
-    public int quantity;
-    public double discountRate;
-    public double taxRate;
+    public Book Book { get; set; }
+    public int Quantity { get; set; }
+    public double DiscountRate { get; set; }
+    public double TaxRate { get; set; }
     public double Total
     {
         get
         {
-            double price = ((book.Price - book.Price * discountRate) * this.quantity);
-            return price * (1 + taxRate);
+            double price = ((Book.Price - Book.Price * DiscountRate) * Quantity);
+            return price * (1 + TaxRate);
         }
     }
 
     public Invoice(Book book, int quantity, double discountRate, double taxRate)
     {
-        this.book = book;
-        this.quantity = quantity;
-        this.discountRate = discountRate;
-        this.taxRate = taxRate;
+        Book = book;
+        Quantity = quantity;
+        DiscountRate = discountRate;
+        TaxRate = taxRate;
     }
 }
 
@@ -51,9 +51,9 @@ public class InvoicePrinter
     }
     public void Print()
     {
-        Console.WriteLine(invoice.quantity + "x " + invoice.book.Name + " " + invoice.book.Price + " $");
-        Console.WriteLine("Discount Rate: " + invoice.discountRate);
-        Console.WriteLine("Tax Rate: " + invoice.taxRate);
+        Console.WriteLine(invoice.Quantity + "x " + invoice.Book.Name + " " + invoice.Book.Price + " $");
+        Console.WriteLine("Discount Rate: " + invoice.DiscountRate);
+        Console.WriteLine("Tax Rate: " + invoice.TaxRate);
         Console.WriteLine("Total: " + invoice.Total + " $");
     }
 }
