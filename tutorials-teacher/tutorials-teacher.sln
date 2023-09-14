@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Overloading", "Method Overloading\Method Overloading.csproj", "{5B7541DC-DF0F-4B2B-8F8A-782F24F014BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Overriding", "Method Overriding\Method Overriding.csproj", "{4D3CB0A0-58D3-4EDD-BAD8-D84FFCD11294}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5B7541DC-DF0F-4B2B-8F8A-782F24F014BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B7541DC-DF0F-4B2B-8F8A-782F24F014BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B7541DC-DF0F-4B2B-8F8A-782F24F014BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3CB0A0-58D3-4EDD-BAD8-D84FFCD11294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3CB0A0-58D3-4EDD-BAD8-D84FFCD11294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3CB0A0-58D3-4EDD-BAD8-D84FFCD11294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3CB0A0-58D3-4EDD-BAD8-D84FFCD11294}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
