@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TypeLoader": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\GitHub\\learn-csharp\\Sample-Projects\\Reflection-sample\\MyAssembly\\bin\\Debug\\net8.0\\MyAssembly.dll"
+    }
+  }
+}
